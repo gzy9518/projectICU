@@ -291,47 +291,81 @@ public class PointCloudActivity extends Activity {
                 }
 
                 double MIN_TRACKING_METERS = 0.50;
-                double ARM_LENGTH_METERS = 1.42;
-                double WAIT_TIME_MILLISECS = 5000.0; // five seconds
-                float[] averagedXY = getAveragedXY(pointCloud.points, pointCloud.numPoints);
-                double averagedX = averagedXY[0];
-                double averagedY = averagedXY[1];
+                double ARM_LENGTH_METERS = 2.00;
+                double WAIT_TIME_MILLISECS = 1000.0; // five seconds
+                float[][] averagedXY = getAveragedXY(pointCloud.points, pointCloud.numPoints);
 
-                double MIN_X_METERS = -0.05;
-                double MAX_X_METERS = 0.05;
+                double leftX = averagedXY[0][0];
+                double leftY = averagedXY[0][1];
+                double leftZ = averagedXY[0][2];
+                double leftpoints = averagedXY[0][3];
+
+                double midX = averagedXY[1][0];
+                double midY = averagedXY[1][1];
+                double midZ = averagedXY[1][2];
+                double midpoints = averagedXY[1][3];
+
+                double rightX = averagedXY[2][0];
+                double rightY = averagedXY[2][1];
+                double rightZ = averagedXY[2][2];
+                double rightpoints = averagedXY[2][3];
+
+                double MIN_X_METERS = -0.25;
+                double MAX_X_METERS = 0.25;
                 // double MIN_Y_METERS = -0.5
                 // double MAX_Y_METERS = 0.5;
                 if (MIN_TRACKING_METERS <= averageDepth &&
-                        averageDepth <= ARM_LENGTH_METERS &&
                         ttsAlertTimeDelta >= WAIT_TIME_MILLISECS) {
-                    if (averagedX >= MIN_X_METERS &&
-                        averagedX <= MAX_X_METERS) {
-                        if (!tts.isSpeaking()) {
-                            ttsPreviousAlertTimeStamp = currentTimeStamp;
-                            String warning = "There is an object ahead of you within arms length.";
-                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                    if (midpoints >= 1000 &&
+                            midZ <= ARM_LENGTH_METERS) {
+                        if (leftpoints >= 1000 &&
+                                leftZ <= ARM_LENGTH_METERS) {
+                            if (rightpoints >= 1000 &&
+                                    rightZ <= ARM_LENGTH_METERS) {
+                                if (!tts.isSpeaking()) {
+                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+                                    String warning = "Obstacles ahead within arms length. Turn around.";
+                                    tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                                }
+                            }
+                            if (rightpoints <= 1000) {
+                                if (!tts.isSpeaking()) {
+                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+                                    String moveright = "Try moving left.";
+                                    tts.speak(moveright, TextToSpeech.QUEUE_FLUSH, null);
+                                }
+                            }
+                        }
+                        if (leftpoints <= 1000) {
+                            if (rightpoints <= 1000) {
+                                if (!tts.isSpeaking()) {
+                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+                                    String moveeither = "Move left or right.";
+                                    tts.speak(moveeither, TextToSpeech.QUEUE_FLUSH, null);
+                                }
+                            }
+                            if (rightpoints >= 1000 &&
+                                    rightZ <= ARM_LENGTH_METERS) {
+                                if (!tts.isSpeaking()) {
+                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+                                    String moveleft = "Try moving right.";
+                                    tts.speak(moveleft, TextToSpeech.QUEUE_FLUSH, null);
+                                }
+                            }
                         }
                     }
-                    if (averagedX <= MIN_X_METERS &&
-                        averagedX >= -1.0) {
+                    if (midpoints <= 1000 &&
+                            rightpoints >= 1000 &&
+                            rightZ <= ARM_LENGTH_METERS &&
+                            leftpoints >= 1000 &&
+                            leftZ <= ARM_LENGTH_METERS) {
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
-                            String moveright = "Try moving left.";
-                            tts.speak(moveright, TextToSpeech.QUEUE_FLUSH, null);
-                        }
-                    }
-                    if (averagedX >= MAX_X_METERS &&
-                        averagedX <= 1.0) {
-                        if (!tts.isSpeaking()) {
-                            ttsPreviousAlertTimeStamp = currentTimeStamp;
-                            String moveleft = "Try moving right, dummy.";
-                            tts.speak(moveleft, TextToSpeech.QUEUE_FLUSH, null);
+                            String movestraight = "Obstacles on both sides, move straight.";
+                            tts.speak(movestraight, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
                 }
-
-
-                System.out.println("avg (x,y) : " + "(" + averagedX + ", " + averagedY + ")");
             }
 
             @Override
@@ -521,27 +555,45 @@ public class PointCloudActivity extends Activity {
         return averageZ;
     }
 
-    private float[] getAveragedXY(FloatBuffer pointCloudBuffer, int numPoints) {
-        float ret[] = new float[2];
-        // initialize
-        ret[0] = 0;
-        ret[1] = 0;
-
-        float totalX = 0;
-        float averageX = 0;
-        float totalY = 0;
-        float averageY = 0;
+    private float[][] getAveragedXY(FloatBuffer pointCloudBuffer, int numPoints) {
+        float ret[][] = new float[3][];
+        for (int i = 0; i < 3; i++) {
+            ret[i] = new float[4];
+            for (int j = 0; j < 4; j ++) {
+                ret[i][j] = 0;
+            }
+        }
 
         if (numPoints != 0) {
             int numFloats = 4 * numPoints;
             for (int i = 1; i < numFloats; i = i + 4) {
-                totalX = totalX + pointCloudBuffer.get(i - 1);
-                totalY = totalY + pointCloudBuffer.get(i);
+                if (pointCloudBuffer.get(i-1) > .25 &&
+                    pointCloudBuffer.get(i-1) < 1) {
+                    ret[0][0] = ret[0][0] + pointCloudBuffer.get(i-1);
+                    ret[0][1] = ret[0][1] + pointCloudBuffer.get(i);
+                    ret[0][2] = ret[0][2]+ pointCloudBuffer.get(i+1);
+                    ret[0][3] ++;
+                }
+                if (pointCloudBuffer.get(i-1) <= .25 &&
+                    pointCloudBuffer.get(i-1) >= -.25) {
+                    ret[1][0] = ret[1][0] + pointCloudBuffer.get(i-1);
+                    ret[1][1] = ret[1][1] + pointCloudBuffer.get(i);
+                    ret[1][2] = ret[1][2] + pointCloudBuffer.get(i+1);
+                    ret[1][3] ++;
+                }
+                if (pointCloudBuffer.get(i-1) < -.25 &&
+                    pointCloudBuffer.get(i-1) >= -1) {
+                    ret[2][0] = ret[2][0] + pointCloudBuffer.get(i-1);
+                    ret[2][1] = ret[2][1] + pointCloudBuffer.get(i);
+                    ret[2][2] = ret[2][2] + pointCloudBuffer.get(i+1);
+                    ret[2][3] ++;
+                }
             }
-            averageX = totalX / numPoints;
-            averageY = totalY / numPoints;
-            ret[0] = averageX;
-            ret[1] = averageY;
+            for (int i =0; i < 3; i ++) {
+                for (int j = 0; j < 3; j ++) {
+                    ret[i][j] = ret[i][j] / ret[i][3];
+                }
+            }
         }
         return ret;
     }
