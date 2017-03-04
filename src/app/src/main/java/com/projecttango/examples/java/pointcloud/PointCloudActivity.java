@@ -293,23 +293,44 @@ public class PointCloudActivity extends Activity {
                 double MIN_TRACKING_METERS = 0.50;
                 double ARM_LENGTH_METERS = 1.42;
                 double WAIT_TIME_MILLISECS = 5000.0; // five seconds
+                float[] averagedXY = getAveragedXY(pointCloud.points, pointCloud.numPoints);
+                double averagedX = averagedXY[0];
+                double averagedY = averagedXY[1];
 
-                // double MIN_X_METERS = -0.05;
-                // double MAX_X_METERS = 0.05
+                double MIN_X_METERS = -0.05;
+                double MAX_X_METERS = 0.05;
                 // double MIN_Y_METERS = -0.5
                 // double MAX_Y_METERS = 0.5;
                 if (MIN_TRACKING_METERS <= averageDepth &&
                         averageDepth <= ARM_LENGTH_METERS &&
                         ttsAlertTimeDelta >= WAIT_TIME_MILLISECS) {
-                    if (!tts.isSpeaking()) {
-                        ttsPreviousAlertTimeStamp = currentTimeStamp;
-                        String warning = "There is an object ahead of you within arms length.";
-                        tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                    if (averagedX >= MIN_X_METERS &&
+                        averagedX <= MAX_X_METERS) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "There is an object ahead of you within arms length.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    if (averagedX <= MIN_X_METERS &&
+                        averagedX >= -1.0) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String moveright = "Try moving left.";
+                            tts.speak(moveright, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    if (averagedX >= MAX_X_METERS &&
+                        averagedX <= 1.0) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String moveleft = "Try moving right, dummy.";
+                            tts.speak(moveleft, TextToSpeech.QUEUE_FLUSH, null);
+                        }
                     }
                 }
-                float[] averagedXY = getAveragedXY(pointCloud.points, pointCloud.numPoints);
-                double averagedX = averagedXY[0];
-                double averagedY = averagedXY[1];
+
+
                 System.out.println("avg (x,y) : " + "(" + averagedX + ", " + averagedY + ")");
             }
 
