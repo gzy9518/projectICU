@@ -7,10 +7,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/.." />
-            <option value="$PROJECT_DIR$/../hello_area_description" />
-            <option value="$PROJECT_DIR$/../hello_depth_perception" />
-            <option value="$PROJECT_DIR$/../hello_motion_tracking" />
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
