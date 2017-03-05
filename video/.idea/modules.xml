@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hello_area_description/hello_area_description.iml" filepath="$PROJECT_DIR$/../hello_area_description/hello_area_description.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hello_depth_perception/hello_depth_perception.iml" filepath="$PROJECT_DIR$/../hello_depth_perception/hello_depth_perception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hello_motion_tracking/hello_motion_tracking.iml" filepath="$PROJECT_DIR$/../hello_motion_tracking/hello_motion_tracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_video.iml" filepath="$PROJECT_DIR$/hello_video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../java_basic_examples.iml" filepath="$PROJECT_DIR$/../java_basic_examples.iml" />
+    </modules>
+  </component>
+</project>
