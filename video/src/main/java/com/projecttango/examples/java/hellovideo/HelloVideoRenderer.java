@@ -181,6 +181,9 @@ public class HelloVideoRenderer implements GLSurfaceView.Renderer {
         File f = new File("/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
                 + File.separator + "ICU_test.jpg");
 
+        String facepath = "/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
+                + File.separator + "ICU_test.jpg";
+
         try {
             if (!f.exists()) {
                 f.getParentFile().mkdirs();
@@ -197,6 +200,7 @@ public class HelloVideoRenderer implements GLSurfaceView.Renderer {
             System.out.println("Could not write!");
             e.printStackTrace(System.out);
         }
+        FaceDetector.facedetect(facepath);
     }
 
     private void createTextures() {

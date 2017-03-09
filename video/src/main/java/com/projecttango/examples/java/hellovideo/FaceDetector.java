@@ -47,13 +47,17 @@ import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class FaceDetector {
-    public static void main(String[] args) {
+    public static void facedetect(String arg) {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         System.out.println("\nRunning FaceDetector");
 
         CascadeClassifier faceDetector = new CascadeClassifier(FaceDetector.class.getResource("haarcascade_frontalface_alt.xml").getPath());
         Mat image = Highgui
+                .imread(FaceDetector.class.getResource(arg).getPath());
 
+        MatOfRect faceDetections = new MatOfRect();
+        faceDetector.detectMultiScale(image, faceDetections);
 
+        System.out.println(String.format("Detected %s faces", faceDetections.toArray().length));
     }
 }
