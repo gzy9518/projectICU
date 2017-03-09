@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Terminé"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Voir toutes les chaînes"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionnez une application"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Recherche en cours..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="action_required">Action nécessaire</string>
+    <string name="connection_layout_message_still">Ne bougez pas</string>
+    <string name="connection_layout_message_tight">Tenez bien l\'appareil</string>
+    <string name="device_not_responding_description">Redémarrez l\'application ou l\'appareil.</string>
+    <string name="device_not_responding_title">Système non disponible.</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">Dirigez l\'appareil vers %s.</string>
+    <string name="hold_posture_down">le bas</string>
+    <string name="hold_posture_forward">l\'avant</string>
+    <string name="hold_posture_title">Inclinaison incorrecte.</string>
+    <string name="hold_posture_up">le haut</string>
+    <string name="lying_on_surface_description">Prenez l\'appareil pour continuer.</string>
+    <string name="lying_on_surface_title">Caméra bloquée.</string>
+    <string name="motion_track_description">Ne bougez pas pour laisser le système récupérer.</string>
+    <string name="motion_track_title">Suivi perdu.</string>
+    <string name="moving_too_fast_description">Ralentissez et tenez bien l\'appareil.</string>
+    <string name="moving_too_fast_title">Trop rapide.</string>
+    <string name="not_enough_light_description">Utilisez l\'appareil dans les endroits bien éclairés.</string>
+    <string name="not_enough_light_title">Trop sombre.</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">Accédez aux paramètres > Options pour concepteurs, puis sélectionnez « Utiliser ART ».</string>
+    <string name="run_time_mismatch_title">Configuration incorrecte.</string>
+    <string name="service_updated_check_updates">Recherchez des mises à jour</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">Effectuez une mise à jour vers la dernière version de Tango Core.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">Version incompatible.</string>
+    <string name="space_not_recognized_description">Dirigez l\'appareil vers un autre endroit.</string>
+    <string name="space_not_recognized_title">Espace non reconnu.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="too_much_light_description">Évitez de vous diriger vers des lumières vives.</string>
+    <string name="too_much_light_title">Trop lumineux.</string>
+    <string name="unable_to_detect_surface_description">Tenez l\'appareil à au moins un bras de distance des objets.</string>
+    <string name="unable_to_detect_surface_title">Aucun élément détecté.</string>
+</resources>

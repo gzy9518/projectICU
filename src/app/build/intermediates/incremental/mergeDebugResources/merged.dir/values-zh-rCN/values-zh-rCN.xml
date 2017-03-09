@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="action_required">需要采取措施</string>
+    <string name="connection_layout_message_still">请保持不动</string>
+    <string name="connection_layout_message_tight">紧握</string>
+    <string name="device_not_responding_description">重新启动应用或重新启动设备。</string>
+    <string name="device_not_responding_title">系统无法使用。</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">%s对准设备</string>
+    <string name="hold_posture_down">向下</string>
+    <string name="hold_posture_forward">向前</string>
+    <string name="hold_posture_title">倾斜角度不正确。</string>
+    <string name="hold_posture_up">向上</string>
+    <string name="lying_on_surface_description">拿起设备以继续。</string>
+    <string name="lying_on_surface_title">相机已被屏蔽。</string>
+    <string name="motion_track_description">拿稳设备以便系统进行恢复。</string>
+    <string name="motion_track_title">动态跟踪失败。</string>
+    <string name="moving_too_fast_description">请放慢速度，并拿稳设备。</string>
+    <string name="moving_too_fast_title">速度过快。</string>
+    <string name="not_enough_light_description">请在光线充足的地方使用设备。</string>
+    <string name="not_enough_light_title">太暗了。</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">转到“设置”>“开发者选项”，然后选择“使用 ART”。</string>
+    <string name="run_time_mismatch_title">配置不正确。</string>
+    <string name="service_updated_check_updates">检查更新</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">更新到最新版本的 Tango Core。</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">版本不兼容。</string>
+    <string name="space_not_recognized_description">请将设备对准别处。</string>
+    <string name="space_not_recognized_title">无法识别空间。</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="too_much_light_description">避免将设备对准亮光。</string>
+    <string name="too_much_light_title">太亮了。</string>
+    <string name="unable_to_detect_surface_description">设备和物体之间至少应保持一臂长度的距离。</string>
+    <string name="unable_to_detect_surface_title">未检测到任何内容。</string>
+</resources>

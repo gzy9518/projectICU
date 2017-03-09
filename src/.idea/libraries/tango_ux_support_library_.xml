@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tango_ux_support_library-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/tango_ux_support_library/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/tango_ux_support_library/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

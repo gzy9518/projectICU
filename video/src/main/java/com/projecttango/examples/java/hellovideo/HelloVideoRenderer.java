@@ -15,6 +15,7 @@
  */
 package com.projecttango.examples.java.hellovideo;
 
+
 import android.graphics.Bitmap;
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
@@ -40,6 +41,7 @@ import com.projecttango.tangosupport.TangoSupport;
  * A simple OpenGL renderer that renders the Tango RGB camera texture on a full-screen background.
  */
 public class HelloVideoRenderer implements GLSurfaceView.Renderer {
+
     private static final String TAG = HelloVideoRenderer.class.getSimpleName();
 
     private final String vss =
@@ -181,6 +183,7 @@ public class HelloVideoRenderer implements GLSurfaceView.Renderer {
 
         try {
             if (!f.exists()) {
+                f.getParentFile().mkdirs();
                 f.createNewFile();
             }
 
@@ -192,6 +195,7 @@ public class HelloVideoRenderer implements GLSurfaceView.Renderer {
             fo.close();
         } catch (IOException e) {
             System.out.println("Could not write!");
+            e.printStackTrace(System.out);
         }
     }
 

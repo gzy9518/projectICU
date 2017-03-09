@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏، %2$s‏، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"پیمایش به بالا"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"انجام شد"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"مشاهده همه"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"انتخاب برنامه"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"جستجو…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"پاک کردن عبارت جستجو"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"عبارت جستجو"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"جستجو"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ارسال عبارت جستجو"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"جستجوی شفاهی"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک‌گذاری با"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏اشتراک‌گذاری با %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="action_required">اقدام لازم است</string>
+    <string name="connection_layout_message_still">ثابت نگه‌دارید</string>
+    <string name="connection_layout_message_tight">محکم نگه‌دارید</string>
+    <string name="device_not_responding_description">برنامه یا دستگاه را راه‌اندازی مجدد کنید.</string>
+    <string name="device_not_responding_title">سیستم غیر قابل دسترسی است.</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">دستگاه را این‌طور بگیرید: %s.</string>
+    <string name="hold_posture_down">پایین</string>
+    <string name="hold_posture_forward">بازارسال</string>
+    <string name="hold_posture_title">شیب اشتباه است.</string>
+    <string name="hold_posture_up">بالا</string>
+    <string name="lying_on_surface_description">دستگاه را برای ادامه بلند کنید.</string>
+    <string name="lying_on_surface_title">دوربین مسدود شد.</string>
+    <string name="motion_track_description">ثابت نگه‌دارید تا سیستم بازیابی شود.</string>
+    <string name="motion_track_title">مسیر ردیابی گم شد.</string>
+    <string name="moving_too_fast_description">سرعت را کم کنید و دستگاه را ثابت نگه‌دارید.</string>
+    <string name="moving_too_fast_title">سرعت خیلی زیاد است.</string>
+    <string name="not_enough_light_description">از دستگاه در محیطی با نور مناسب استفاده کنید.</string>
+    <string name="not_enough_light_title">خیلی تاریک است.</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">‏به تنظیمات > گزینه‌های برنامه‌نویس بروید و «استفاده از ART» را انتخاب کنید.</string>
+    <string name="run_time_mismatch_title">پیکربندی اشتباه است.</string>
+    <string name="service_updated_check_updates">به‌روزرسانی‌ها را بررسی کنید</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">‏به جدیدترین Tango Core به‌روزرسانی کنید.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">نسخه ناسازگار است.</string>
+    <string name="space_not_recognized_description">دستگاه را به سمتی دیگر بگیرید.</string>
+    <string name="space_not_recognized_title">فضا شناسایی نشد.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"۹۹۹+"</string>
+    <string name="too_much_light_description">به سمت نورهای روشن نگیرید.</string>
+    <string name="too_much_light_title">خیلی روشن است.</string>
+    <string name="unable_to_detect_surface_description">بین دستگاه و اشیاء حداقل به‌اندازه یک دست فاصله در نظر بگیرید.</string>
+    <string name="unable_to_detect_surface_title">چیزی شناسایی نشد.</string>
+</resources>

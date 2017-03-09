@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Felfelé mozgatás"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Összes megtekintése"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Válasszon ki egy alkalmazást"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Megosztás a következővel: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="action_required">Beavatkozás szükséges</string>
+    <string name="connection_layout_message_still">Ne mozogjon</string>
+    <string name="connection_layout_message_tight">Várjon türelemmel</string>
+    <string name="device_not_responding_description">Indítsa újra az alkalmazást vagy az eszközt.</string>
+    <string name="device_not_responding_title">A rendszer nem érhető el.</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">Célozzon az eszközzel %s.</string>
+    <string name="hold_posture_down">lefelé</string>
+    <string name="hold_posture_forward">előre</string>
+    <string name="hold_posture_title">Helytelen billentés.</string>
+    <string name="hold_posture_up">felfelé</string>
+    <string name="lying_on_surface_description">A folytatáshoz vegye fel az eszközt.</string>
+    <string name="lying_on_surface_title">Kamera letiltva.</string>
+    <string name="motion_track_description">Tartsa mozdulatlanul, hogy visszaállhasson a rendszer normál működése.</string>
+    <string name="motion_track_title">Megszakadt a követés.</string>
+    <string name="moving_too_fast_description">Lassítson, és tartsa stabilan az eszközt.</string>
+    <string name="moving_too_fast_title">Túl gyors.</string>
+    <string name="not_enough_light_description">Az eszközt jól megvilágított helyen használja.</string>
+    <string name="not_enough_light_title">Túl sötét.</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">Lépjen be a Beállítások > Fejlesztői beállítások menüpontba, és válassza Az ART használata beállítást.</string>
+    <string name="run_time_mismatch_title">Helytelen konfiguráció.</string>
+    <string name="service_updated_check_updates">Frissítések keresése</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">Frissítsen a legújabb Tango Core szoftverre.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">Nem kompatibilis verzió.</string>
+    <string name="space_not_recognized_description">Célozzon az eszközzel máshova.</string>
+    <string name="space_not_recognized_title">A tér nem ismerhető fel.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="too_much_light_description">Kerülje a világos fényforrásokra való célzást.</string>
+    <string name="too_much_light_title">Túl világos.</string>
+    <string name="unable_to_detect_surface_description">Tartsa az eszközt legalább egy karnyújtásnyi távolságra a tárgyaktól.</string>
+    <string name="unable_to_detect_surface_title">A rendszer semmit sem észlelt.</string>
+</resources>

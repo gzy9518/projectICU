@@ -1,0 +1,919 @@
+[
+    {
+        "outputFile": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 106,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 106,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 107,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 383,
+                        "endColumn": 107,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endColumn": 122,
+                    "endOffset": 388
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 491,
+                        "endColumn": 122,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 393,
+                    "endColumn": 99,
+                    "endOffset": 488
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endColumn": 99,
+                        "endOffset": 709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 493,
+                    "endColumn": 110,
+                    "endOffset": 599
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 714,
+                        "endColumn": 110,
+                        "endOffset": 820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 604,
+                    "endColumn": 85,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 825,
+                        "endColumn": 85,
+                        "endOffset": 906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 107,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 911,
+                        "endColumn": 107,
+                        "endOffset": 1014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 117,
+                    "endOffset": 911
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 117,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 916,
+                    "endColumn": 83,
+                    "endOffset": 995
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1137,
+                        "endColumn": 83,
+                        "endOffset": 1216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1000,
+                    "endColumn": 104,
+                    "endOffset": 1100
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1221,
+                        "endColumn": 104,
+                        "endOffset": 1321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1105,
+                    "endColumn": 108,
+                    "endOffset": 1209
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1326,
+                        "endColumn": 108,
+                        "endOffset": 1430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1214,
+                    "endColumn": 98,
+                    "endOffset": 1308
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1435,
+                        "endColumn": 98,
+                        "endOffset": 1529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1313,
+                    "endColumn": 105,
+                    "endOffset": 1414
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1534,
+                        "endColumn": 105,
+                        "endOffset": 1635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1419,
+                    "endColumn": 110,
+                    "endOffset": 1525
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1640,
+                        "endColumn": 110,
+                        "endOffset": 1746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1530,
+                    "endColumn": 108,
+                    "endOffset": 1634
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 108,
+                        "endOffset": 1855
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1639,
+                    "endColumn": 123,
+                    "endOffset": 1758
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1860,
+                        "endColumn": 123,
+                        "endOffset": 1979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1763,
+                    "endColumn": 97,
+                    "endOffset": 1856
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1984,
+                        "endColumn": 97,
+                        "endOffset": 2077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1861,
+                    "endColumn": 61,
+                    "endOffset": 1918
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1923,
+                    "endColumn": 70,
+                    "endOffset": 1989
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 70,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1994,
+                    "endColumn": 82,
+                    "endOffset": 2072
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 82,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2077,
+                    "endColumn": 100,
+                    "endOffset": 2173
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 100,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2178,
+                    "endColumn": 83,
+                    "endOffset": 2257
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 83,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2262,
+                    "endColumn": 222,
+                    "endOffset": 2480
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 222,
+                        "endOffset": 674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2485,
+                    "endColumn": 51,
+                    "endOffset": 2532
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 51,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2537,
+                    "endColumn": 56,
+                    "endOffset": 2589
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 56,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2594,
+                    "endColumn": 68,
+                    "endOffset": 2658
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endColumn": 68,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2663,
+                    "endColumn": 49,
+                    "endOffset": 2708
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 857,
+                        "endColumn": 49,
+                        "endOffset": 902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2713,
+                    "endColumn": 91,
+                    "endOffset": 2800
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 907,
+                        "endColumn": 91,
+                        "endOffset": 994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2805,
+                    "endColumn": 73,
+                    "endOffset": 2874
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 999,
+                        "endColumn": 73,
+                        "endOffset": 1068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2879,
+                    "endColumn": 93,
+                    "endOffset": 2968
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1073,
+                        "endColumn": 93,
+                        "endOffset": 1162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2973,
+                    "endColumn": 68,
+                    "endOffset": 3037
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1167,
+                        "endColumn": 68,
+                        "endOffset": 1231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3042,
+                    "endColumn": 103,
+                    "endOffset": 3141
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1236,
+                        "endColumn": 103,
+                        "endOffset": 1335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3146,
+                    "endColumn": 70,
+                    "endOffset": 3212
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1340,
+                        "endColumn": 70,
+                        "endOffset": 1406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3217,
+                    "endColumn": 110,
+                    "endOffset": 3323
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1411,
+                        "endColumn": 110,
+                        "endOffset": 1517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3328,
+                    "endColumn": 68,
+                    "endOffset": 3392
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1522,
+                        "endColumn": 68,
+                        "endOffset": 1586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3397,
+                    "endColumn": 293,
+                    "endOffset": 3686
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1591,
+                        "endColumn": 293,
+                        "endOffset": 1880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3691,
+                    "endColumn": 75,
+                    "endOffset": 3762
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1885,
+                        "endColumn": 75,
+                        "endOffset": 1956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3767,
+                    "endColumn": 79,
+                    "endOffset": 3842
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1961,
+                        "endColumn": 79,
+                        "endOffset": 2036
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3847,
+                    "endColumn": 237,
+                    "endOffset": 4080
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2041,
+                        "endColumn": 237,
+                        "endOffset": 2274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4085,
+                    "endColumn": 121,
+                    "endOffset": 4202
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2279,
+                        "endColumn": 121,
+                        "endOffset": 2396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4207,
+                    "endColumn": 72,
+                    "endOffset": 4275
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2401,
+                        "endColumn": 72,
+                        "endOffset": 2469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4280,
+                    "endColumn": 88,
+                    "endOffset": 4364
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2474,
+                        "endColumn": 88,
+                        "endOffset": 2558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4369,
+                    "endColumn": 81,
+                    "endOffset": 4446
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2563,
+                        "endColumn": 81,
+                        "endOffset": 2640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4451,
+                    "endColumn": 100,
+                    "endOffset": 4547
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2082,
+                        "endColumn": 100,
+                        "endOffset": 2178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4552,
+                    "endColumn": 97,
+                    "endOffset": 4645
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2645,
+                        "endColumn": 97,
+                        "endOffset": 2738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4650,
+                    "endColumn": 68,
+                    "endOffset": 4714
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2743,
+                        "endColumn": 68,
+                        "endOffset": 2807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4719,
+                    "endColumn": 135,
+                    "endOffset": 4850
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2812,
+                        "endColumn": 135,
+                        "endOffset": 2943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4855,
+                    "endColumn": 78,
+                    "endOffset": 4929
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-sk\\values-sk.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2948,
+                        "endColumn": 78,
+                        "endOffset": 3022
+                    }
+                }
+            }
+        ]
+    }
+]

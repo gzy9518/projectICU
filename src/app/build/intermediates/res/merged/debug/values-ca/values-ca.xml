@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navega cap a dalt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Mostra\'ls tots"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Comparteix amb %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string name="action_required">Acció necessària</string>
+    <string name="connection_layout_message_still">No et moguis</string>
+    <string name="connection_layout_message_tight">Espera</string>
+    <string name="device_not_responding_description">Reinicia l\'aplicació o el dispositiu.</string>
+    <string name="device_not_responding_title">El sistema no està disponible</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">Orienta el dispositiu cap %s.</string>
+    <string name="hold_posture_down">avall</string>
+    <string name="hold_posture_forward">endavant</string>
+    <string name="hold_posture_title">La inclinació no és correcta</string>
+    <string name="hold_posture_up">amunt</string>
+    <string name="lying_on_surface_description">Agafa el dispositiu per continuar.</string>
+    <string name="lying_on_surface_title">La càmera està bloquejada</string>
+    <string name="motion_track_description">No et moguis perquè el sistema es pugui recuperar.</string>
+    <string name="motion_track_title">S\'ha perdut el seguiment</string>
+    <string name="moving_too_fast_description">Vés més a poc a poc i mantén el dispositiu en una posició fixa.</string>
+    <string name="moving_too_fast_title">Massa ràpid</string>
+    <string name="not_enough_light_description">Utilitza el dispositiu en zones ben il·luminades.</string>
+    <string name="not_enough_light_title">Massa fosc</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">Vés a Configuració > Opcions per a desenvolupadors i selecciona Utilitza ART.</string>
+    <string name="run_time_mismatch_title">La configuració no és correcta</string>
+    <string name="service_updated_check_updates">Comprova si hi ha actualitzacions</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">Fes l\'actualització a la versió més recent de Tango Core.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">La versió no és compatible</string>
+    <string name="space_not_recognized_description">Orienta el dispositiu a una altra banda</string>
+    <string name="space_not_recognized_title">No es reconeix l\'espai</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="too_much_light_description">No orientis el dispositiu a llums brillants</string>
+    <string name="too_much_light_title">Massa brillant</string>
+    <string name="unable_to_detect_surface_description">Mantén el dispositiu separat d\'altres objectes almenys per la distància d\'un braç.</string>
+    <string name="unable_to_detect_surface_title">No s\'ha detectat res</string>
+</resources>

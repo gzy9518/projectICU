@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"นำทางขึ้น"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"เสร็จสิ้น"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ล้างข้อความค้นหา"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ข้อความค้นหา"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ส่งข้อความค้นหา"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"แชร์กับ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="action_required">ต้องดำเนินการ</string>
+    <string name="connection_layout_message_still">จับให้นิ่ง</string>
+    <string name="connection_layout_message_tight">จับให้แน่น</string>
+    <string name="device_not_responding_description">รีสตาร์ทแอปหรือเริ่มต้นอุปกรณ์ใหม่</string>
+    <string name="device_not_responding_title">ระบบไม่พร้อมใช้งาน</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">ชี้อุปกรณ์%s</string>
+    <string name="hold_posture_down">ลง</string>
+    <string name="hold_posture_forward">ส่งต่อ</string>
+    <string name="hold_posture_title">เอียงไม่ถูกด้าน</string>
+    <string name="hold_posture_up">ขึ้น</string>
+    <string name="lying_on_surface_description">หยิบอุปกรณ์ขึ้นมาเพื่อดำเนินการต่อ</string>
+    <string name="lying_on_surface_title">กล้องถ่ายรูปถูกบล็อก</string>
+    <string name="motion_track_description">จับให้มั่นเพื่อกู้คืนระบบ</string>
+    <string name="motion_track_title">สูญเสียการติดตาม</string>
+    <string name="moving_too_fast_description">ค่อยๆ และจับอุปกรณ์ให้มั่น</string>
+    <string name="moving_too_fast_title">เร็วเกินไป</string>
+    <string name="not_enough_light_description">ใช้อุปกรณ์ในที่ที่มีแสงสว่างเพียงพอ</string>
+    <string name="not_enough_light_title">มืดเกินไป</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">ไปที่การตั้งค่า > ตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์และเลือก \"Use ART\"</string>
+    <string name="run_time_mismatch_title">การกำหนดค่าไม่ถูกต้อง</string>
+    <string name="service_updated_check_updates">ตรวจหาอัปเดต</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">อัปเดตเป็น Tango Core เวอร์ชันล่าสุด</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">เวอร์ชันใช้ร่วมกันไม่ได้</string>
+    <string name="space_not_recognized_description">ชี้อุปกรณ์ไปที่อื่น</string>
+    <string name="space_not_recognized_title">ไม่รู้จักพื้นที่นี้</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="too_much_light_description">หลีกเลี่ยงการชี้ไปที่แสงจ้า</string>
+    <string name="too_much_light_title">สว่างเกินไป</string>
+    <string name="unable_to_detect_surface_description">วางอุปกรณ์ให้ห่างจากวัตถุอย่างน้อย 1 ช่วงแขน</string>
+    <string name="unable_to_detect_surface_title">ไม่พบอะไร</string>
+</resources>

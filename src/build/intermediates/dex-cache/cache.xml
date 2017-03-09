@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\TangoReleaseLibs\jar\tango_java_lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6621a079eca16b9fb1cc06b529d80c1a087971e8">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\tango_java_lib_be3eb66145f217ae3ba73a6ea02e7897b83758cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="806f13264c6257365751b17481e146659d060d8f">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\instant-run_cd02f58e87f7195c52a8deb7dd756c01c9ab4ebe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\exploded-aar\tango_ux_support_library\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0c926fd221cf9d9e4dc29bd6aaa43db265f223f3">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-tango_ux_support_library_282edc0af3e6ae452a04b2fa5cfa675d4755df10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_ef47a3f67a161758d0911cc63e612fc33f92181f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\exploded-aar\org.rajawali3d\rajawali\1.0.325\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0a442f232c74f43aa6baed9a29cb13941bd10e6a">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\org.rajawali3d-rajawali-1.0.325_6e060b9cf51bee3ffb6c1630fffe51a025b352b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\exploded-aar\tango_support_java_lib\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="102e7f3af82c17b19878c5a2b1187ad80ab4f210">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-tango_support_java_lib_e998f20710c472cdfe11605f3b6e738f6d84bc48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_9b7a20650448f7c02a2d5ddc1c39c54ac1de027a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.0_ec3300bdbc2a4476aa8a2a4159336f66fcdae7a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c05c0b04d400c78f6f2d987ec0bd3bf5b5e8b052">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_2108ac26bafad12744a437b624d98aa8c339868e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\ericsgu\Documents\GitHub\projectICU\src\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_954645ddd5b4df4db1b22912153e1d515443475a.jar" />
+    </item>
+
+</items>

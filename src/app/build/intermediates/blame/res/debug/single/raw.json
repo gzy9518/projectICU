@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\color_threshold_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\color_threshold_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sepia_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\sepia_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copy_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\copy_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\grey_scale_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\grey_scale_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fog_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\fog_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blend_screen_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\blend_screen_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blur_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\blur_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\minimal_vertex_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\minimal_vertex_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blend_add_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\blend_add_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\raw\\vignette_fragment_shader.glsl",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.325\\res\\raw\\vignette_fragment_shader.glsl"
+    }
+]

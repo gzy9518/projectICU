@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Одлазак на Почетну"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Кретање нагоре"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Избор апликације"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Претражите..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Брисање упита"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Упит за претрагу"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Претрага"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Слање упита"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Дели са"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Дели са апликацијом %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="action_required">Потребна је радња</string>
+    <string name="connection_layout_message_still">Не померајте се</string>
+    <string name="connection_layout_message_tight">Чврсто држите</string>
+    <string name="device_not_responding_description">Рестартујте апликацију или уређај.</string>
+    <string name="device_not_responding_title">Систем није доступан.</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">Усмерите уређај %s.</string>
+    <string name="hold_posture_down">надоле</string>
+    <string name="hold_posture_forward">унапред</string>
+    <string name="hold_posture_title">Неисправан нагиб.</string>
+    <string name="hold_posture_up">нагоре</string>
+    <string name="lying_on_surface_description">Узмите уређај да бисте наставили.</string>
+    <string name="lying_on_surface_title">Камера је блокирана.</string>
+    <string name="motion_track_description">Држите уређај мирно да би се систем опоравио.</string>
+    <string name="motion_track_title">Праћење је изгубљено.</string>
+    <string name="moving_too_fast_description">Успоритe и мирно држите уређај.</string>
+    <string name="moving_too_fast_title">Пребрзо.</string>
+    <string name="not_enough_light_description">Користите уређај у добро осветљеним областима.</string>
+    <string name="not_enough_light_title">Превише је тамно.</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">Идите у Подешавања > Опције за програмере и изаберите Користи ART.</string>
+    <string name="run_time_mismatch_title">Неисправна конфигурација.</string>
+    <string name="service_updated_check_updates">Потражи ажурирања</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">Ажурирајте на најновији Tango Core.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">Некомпатибилна верзија.</string>
+    <string name="space_not_recognized_description">Усмерите уређај негде другде.</string>
+    <string name="space_not_recognized_title">Простор није препознат.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="too_much_light_description">Немојте да усмеравате уређај ка јаком светлу.</string>
+    <string name="too_much_light_title">Превише је светло.</string>
+    <string name="unable_to_detect_surface_description">Удаљите уређај од предмета барем за дужину руке.</string>
+    <string name="unable_to_detect_surface_title">Нисмо ништа открили.</string>
+</resources>

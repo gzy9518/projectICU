@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+    <dimen name="hold_steady_bubble_level_max_y">30dp</dimen>
+    <dimen name="hold_steady_frame_height">96dp</dimen>
+    <dimen name="hold_steady_frame_width">61dp</dimen>
+</resources>

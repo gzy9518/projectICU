@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="action_required">الإجراء المطلوب</string>
+    <string name="connection_layout_message_still">عدم التحرك</string>
+    <string name="connection_layout_message_tight">الإمساك بإحكام</string>
+    <string name="device_not_responding_description">أعِد تشغيل التطبيق أو الجهاز.</string>
+    <string name="device_not_responding_title">النظام غير متاح.</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">وجِّه الجهاز إلى %s.</string>
+    <string name="hold_posture_down">لأسفل</string>
+    <string name="hold_posture_forward">للأمام</string>
+    <string name="hold_posture_title">الإمالة غير صحيحة.</string>
+    <string name="hold_posture_up">لأعلى</string>
+    <string name="lying_on_surface_description">احمل الجهاز للمتابعة.</string>
+    <string name="lying_on_surface_title">تم حظر الكاميرا.</string>
+    <string name="motion_track_description">أمسك الجهاز بثبات للسماح باسترداد النظام.</string>
+    <string name="motion_track_title">فُقد التتبع.</string>
+    <string name="moving_too_fast_description">عليك بالإبطاء وإمساك الجهاز في وضع ثابت.</string>
+    <string name="moving_too_fast_title">سريع للغاية.</string>
+    <string name="not_enough_light_description">استخدم الجهاز في مناطق تتمتع بإضاءة جيدة.</string>
+    <string name="not_enough_light_title">معتم للغاية.</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">‏انتقل إلى إعدادات > خيارات مطوّر البرامج، ثم حدِّد \"استخدام ART\".</string>
+    <string name="run_time_mismatch_title">التهيئة غير صحيحة.</string>
+    <string name="service_updated_check_updates">التحقق من التحديثات</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">‏يلزمك التحديث إلى أحدث إصدار من Tango Core.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">الإصدار غير متوافق.</string>
+    <string name="space_not_recognized_description">وجِّه الجهاز إلى مكانٍ آخر.</string>
+    <string name="space_not_recognized_title">لم يتم التعرّف على المساحة.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="too_much_light_description">تجنَّب التوجيه إلى الأضواء الساطعة.</string>
+    <string name="too_much_light_title">ساطع للغاية.</string>
+    <string name="unable_to_detect_surface_description">أمسك الجهاز على بعد ذراع واحد على الأقل من الأجسام.</string>
+    <string name="unable_to_detect_surface_title">لم يتم اكتشاف أي شيء.</string>
+</resources>

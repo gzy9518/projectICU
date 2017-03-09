@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hold_steady_bubble_level_err.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\hold_steady_bubble_level_err.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_notification_i_am_lost.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_notification_i_am_lost.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hold_steady_bubble_level_ok.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\hold_steady_bubble_level_ok.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\exception_container_shadow.9.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\exception_container_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_notification_i_am_dizzy.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_notification_i_am_dizzy.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_exception_i_am_dizzy.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_exception_i_am_dizzy.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_notification_system.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_notification_system.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_exception_i_cant_see.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_exception_i_cant_see.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_notification_i_cant_see.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_notification_i_cant_see.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_file_download_white.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_file_download_white.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_exception_i_am_lost.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_exception_i_am_lost.png"
+    },
+    {
+        "merged": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_exception_system.png",
+        "source": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\drawable-xhdpi-v4\\ic_exception_system.png"
+    }
+]

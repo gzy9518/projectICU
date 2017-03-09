@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.hardware.display.DisplayManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.os.Environment;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.Display;
@@ -249,7 +250,7 @@ public class HelloVideoActivity extends Activity {
 
             @Override
             public void onPointCloudAvailable(final TangoPointCloudData pointCloud) {
-
+                System.out.println(HelloVideoActivity.this.getExternalFilesDir(Environment.DIRECTORY_PICTURES));
 //                if (mTangoUx != null) {
 //                    mTangoUx.updatePointCloud(pointCloud);
 //                }

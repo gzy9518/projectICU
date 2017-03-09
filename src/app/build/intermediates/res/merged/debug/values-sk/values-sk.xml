@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Prejsť na plochu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Prejsť hore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Ďalšie možnosti"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobraziť všetko"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Zvoľte aplikáciu"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Vyhľadať…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Vymazať dopyt"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhľadávací dopyt"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hľadať"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odoslať dopyt"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhľadávanie"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Zdieľať pomocou"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Zdieľať pomocou %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <string name="action_required">Vyžaduje sa akcia</string>
+    <string name="connection_layout_message_still">Nehýbte sa</string>
+    <string name="connection_layout_message_tight">Držte zariadenie pevne</string>
+    <string name="device_not_responding_description">Reštartuje aplikáciu alebo zariadenie.</string>
+    <string name="device_not_responding_title">Systém nie je k dispozícii.</string>
+    <string description="Shown as system notification to hold the device at a suggested posture, in combination with &apos;hold_posture_forward/up/down&apos;." name="hold_posture_description">Ukážte zariadením %s.</string>
+    <string name="hold_posture_down">nadol</string>
+    <string name="hold_posture_forward">dopredu</string>
+    <string name="hold_posture_title">Nesprávne naklonenie.</string>
+    <string name="hold_posture_up">nahor</string>
+    <string name="lying_on_surface_description">Zdvihnite zariadenie a pokračujte.</string>
+    <string name="lying_on_surface_title">Kamera je zablokovaná.</string>
+    <string name="motion_track_description">Nehýbte sa, aby sa mohol systém obnoviť.</string>
+    <string name="motion_track_title">Sledovanie nefunguje.</string>
+    <string name="moving_too_fast_description">Spomaľte a držte zariadenie v stabilnej polohe.</string>
+    <string name="moving_too_fast_title">Príliš rýchly pohyb.</string>
+    <string name="not_enough_light_description">Používajte zariadenie v dobre osvetlených oblastiach.</string>
+    <string name="not_enough_light_title">Príliš veľká tma.</string>
+    <string description="Shown as system notification to change the device&apos;s system runtime to &apos;ART&apos;, no need to translate &apos;ART&apos;." name="run_time_mismatch_description">Prejdite do časti Nastavenia > Možnosti pre vývojárov a vyberte možnosť Použiť nástroj ART.</string>
+    <string name="run_time_mismatch_title">Nesprávna konfigurácia.</string>
+    <string name="service_updated_check_updates">Vyhľadať aktualizácie</string>
+    <string description="Shown as system notification to update Tango Core, which is a system library, no need to translate &apos;Tango Core&apos;." name="service_updated_description">Aktualizujte Tango Core na najnovšiu verziu.</string>
+    <string description="No need to translate &apos;Tango Core&apos;." name="service_updated_linkify">Tango Core</string>
+    <string name="service_updated_title">Nekompatibilná verzia.</string>
+    <string name="space_not_recognized_description">Nasmerujte zariadenie inam.</string>
+    <string name="space_not_recognized_title">Priestor nebol rozpoznaný.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="too_much_light_description">Vyhýbajte sa nasmerovaniu na jasné svetlá.</string>
+    <string name="too_much_light_title">Príliš veľa svetla.</string>
+    <string name="unable_to_detect_surface_description">Držte zariadenie od objektov minimálne vo vzdialenosti vystretej ruky.</string>
+    <string name="unable_to_detect_surface_title">Nič nebolo zistené.</string>
+</resources>

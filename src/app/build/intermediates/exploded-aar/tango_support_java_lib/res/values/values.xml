@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="shared_libraries">
+        <item>tango_support_api</item>
+        <item>tango_support_java_lib</item>
+    <item>tango_dataset</item>
+        <item>tango_java_dataset_api</item>
+    <item>tango_3d_reconstruction</item>
+        <item>cxsparse</item>
+        <item>tango_java_3d_reconstruction_api</item>
+    <item>tango_java_mesh_lib</item>
+    </string-array>
+</resources>

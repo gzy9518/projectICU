@@ -1,0 +1,919 @@
+[
+    {
+        "outputFile": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 107,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 107,
+                        "endOffset": 379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 107,
+                    "endOffset": 266
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 107,
+                        "endOffset": 487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 271,
+                    "endColumn": 122,
+                    "endOffset": 389
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 492,
+                        "endColumn": 122,
+                        "endOffset": 610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 394,
+                    "endColumn": 104,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 615,
+                        "endColumn": 104,
+                        "endOffset": 715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endColumn": 114,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 720,
+                        "endColumn": 114,
+                        "endOffset": 830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 83,
+                    "endOffset": 693
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 835,
+                        "endColumn": 83,
+                        "endOffset": 914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 698,
+                    "endColumn": 111,
+                    "endOffset": 805
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 111,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 810,
+                    "endColumn": 129,
+                    "endOffset": 935
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1031,
+                        "endColumn": 129,
+                        "endOffset": 1156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 940,
+                    "endColumn": 82,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1161,
+                        "endColumn": 82,
+                        "endOffset": 1239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endColumn": 109,
+                    "endOffset": 1128
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1244,
+                        "endColumn": 109,
+                        "endOffset": 1349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1133,
+                    "endColumn": 110,
+                    "endOffset": 1239
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1354,
+                        "endColumn": 110,
+                        "endOffset": 1460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1244,
+                    "endColumn": 99,
+                    "endOffset": 1339
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1465,
+                        "endColumn": 99,
+                        "endOffset": 1560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1344,
+                    "endColumn": 110,
+                    "endOffset": 1450
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1565,
+                        "endColumn": 110,
+                        "endOffset": 1671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1455,
+                    "endColumn": 107,
+                    "endOffset": 1558
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1676,
+                        "endColumn": 107,
+                        "endOffset": 1779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1563,
+                    "endColumn": 118,
+                    "endOffset": 1677
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1784,
+                        "endColumn": 118,
+                        "endOffset": 1898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1682,
+                    "endColumn": 133,
+                    "endOffset": 1811
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1903,
+                        "endColumn": 133,
+                        "endOffset": 2032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1816,
+                    "endColumn": 102,
+                    "endOffset": 1914
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2037,
+                        "endColumn": 102,
+                        "endOffset": 2135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1919,
+                    "endColumn": 65,
+                    "endOffset": 1980
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1985,
+                    "endColumn": 71,
+                    "endOffset": 2052
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 121,
+                        "endColumn": 71,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2057,
+                    "endColumn": 77,
+                    "endOffset": 2130
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 77,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2135,
+                    "endColumn": 106,
+                    "endOffset": 2237
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 106,
+                        "endOffset": 373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2242,
+                    "endColumn": 81,
+                    "endOffset": 2319
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 378,
+                        "endColumn": 81,
+                        "endOffset": 455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2324,
+                    "endColumn": 226,
+                    "endOffset": 2546
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 460,
+                        "endColumn": 226,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2551,
+                    "endColumn": 52,
+                    "endOffset": 2599
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 52,
+                        "endOffset": 735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2604,
+                    "endColumn": 54,
+                    "endOffset": 2654
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 740,
+                        "endColumn": 54,
+                        "endOffset": 790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2659,
+                    "endColumn": 67,
+                    "endOffset": 2722
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 795,
+                        "endColumn": 67,
+                        "endOffset": 858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2727,
+                    "endColumn": 51,
+                    "endOffset": 2774
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 863,
+                        "endColumn": 51,
+                        "endOffset": 910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2779,
+                    "endColumn": 93,
+                    "endOffset": 2868
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 915,
+                        "endColumn": 93,
+                        "endOffset": 1004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2873,
+                    "endColumn": 67,
+                    "endOffset": 2936
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1009,
+                        "endColumn": 67,
+                        "endOffset": 1072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2941,
+                    "endColumn": 123,
+                    "endOffset": 3060
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1077,
+                        "endColumn": 123,
+                        "endOffset": 1196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3065,
+                    "endColumn": 68,
+                    "endOffset": 3129
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1201,
+                        "endColumn": 68,
+                        "endOffset": 1265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3134,
+                    "endColumn": 97,
+                    "endOffset": 3227
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1270,
+                        "endColumn": 97,
+                        "endOffset": 1363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3232,
+                    "endColumn": 60,
+                    "endOffset": 3288
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1368,
+                        "endColumn": 60,
+                        "endOffset": 1424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3293,
+                    "endColumn": 103,
+                    "endOffset": 3392
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1429,
+                        "endColumn": 103,
+                        "endOffset": 1528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3397,
+                    "endColumn": 61,
+                    "endOffset": 3454
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1533,
+                        "endColumn": 61,
+                        "endOffset": 1590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3459,
+                    "endColumn": 304,
+                    "endOffset": 3759
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endColumn": 304,
+                        "endOffset": 1895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3764,
+                    "endColumn": 75,
+                    "endOffset": 3835
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1900,
+                        "endColumn": 75,
+                        "endOffset": 1971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3840,
+                    "endColumn": 78,
+                    "endOffset": 3914
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1976,
+                        "endColumn": 78,
+                        "endOffset": 2050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3919,
+                    "endColumn": 237,
+                    "endOffset": 4152
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2055,
+                        "endColumn": 237,
+                        "endOffset": 2288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4157,
+                    "endColumn": 121,
+                    "endOffset": 4274
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2293,
+                        "endColumn": 121,
+                        "endOffset": 2410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4279,
+                    "endColumn": 74,
+                    "endOffset": 4349
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2415,
+                        "endColumn": 74,
+                        "endOffset": 2485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4354,
+                    "endColumn": 91,
+                    "endOffset": 4441
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2490,
+                        "endColumn": 91,
+                        "endOffset": 2577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4446,
+                    "endColumn": 79,
+                    "endOffset": 4521
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2582,
+                        "endColumn": 79,
+                        "endOffset": 2657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4526,
+                    "endColumn": 100,
+                    "endOffset": 4622
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2140,
+                        "endColumn": 100,
+                        "endOffset": 2236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4627,
+                    "endColumn": 101,
+                    "endOffset": 4724
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2662,
+                        "endColumn": 101,
+                        "endOffset": 2759
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4729,
+                    "endColumn": 61,
+                    "endOffset": 4786
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2764,
+                        "endColumn": 61,
+                        "endOffset": 2821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4791,
+                    "endColumn": 134,
+                    "endOffset": 4921
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2826,
+                        "endColumn": 134,
+                        "endOffset": 2956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4926,
+                    "endColumn": 89,
+                    "endOffset": 5011
+                },
+                "from": {
+                    "file": "C:\\Users\\ericsgu\\Documents\\GitHub\\projectICU\\src\\app\\build\\intermediates\\exploded-aar\\tango_ux_support_library\\res\\values-hu\\values-hu.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2961,
+                        "endColumn": 89,
+                        "endOffset": 3046
+                    }
+                }
+            }
+        ]
+    }
+]
