@@ -42,6 +42,7 @@ import com.google.atap.tangoservice.TangoXyzIjData;
 import com.projecttango.tangosupport.TangoPointCloudManager;
 import com.projecttango.tangosupport.TangoSupport;
 
+import java.io.File;
 import java.nio.FloatBuffer;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -80,8 +81,11 @@ public class HelloVideoActivity extends Activity {
     private TextView mPointCountTextView;
     private TextView mAverageZTextView;
     private TextToSpeech tts;
+    private FaceDetector fd; // for face detection
     private double ttsPreviousAlertTimeStamp;
+    private double ttsPreviousFaceTimeStamp;
     private double mPointCloudPreviousTimeStamp;
+    private double fdPreviousTimeStamp;
 
     //private Tango mTango;
     //private TangoConfig mConfig;
@@ -116,6 +120,9 @@ public class HelloVideoActivity extends Activity {
                 }
             }
         });
+        String classifierPath = "/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
+                + File.separator + "lbpcascade_frontalface.xml";
+        fd = new FaceDetector(HelloVideoActivity.this, classifierPath);
 
         DisplayManager displayManager = (DisplayManager) getSystemService(DISPLAY_SERVICE);
         if (displayManager != null) {
@@ -148,6 +155,7 @@ public class HelloVideoActivity extends Activity {
         // Set render mode to RENDERMODE_CONTINUOUSLY to force getting onDraw callbacks until the
         // Tango service is properly set-up and we start getting onFrameAvailable callbacks.
         mSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
+        fd.init(HelloVideoActivity.this);
 
         // Initialize Tango Service as a normal Android Service, since we call mTango.disconnect()
         // in onPause, this will unbind Tango Service, so every time when onResume gets called, we
@@ -385,6 +393,29 @@ public class HelloVideoActivity extends Activity {
                     mIsFrameAvailableTangoThread.set(true);
                     // Trigger an OpenGL render to update the OpenGL scene with the new RGB data.
                     mSurfaceView.requestRender();
+
+                    double currTime = System.nanoTime();
+                    double currTime_MILLI_SECONDS = currTime / 1e6;
+                    double diff = (currTime - fdPreviousTimeStamp) / 1e6;
+                    if (diff > 1000) {
+                        System.out.println("FaceDetection: Attempting to analyze face");
+                        System.out.println("FaceDetection: Delta t: " + diff);
+                        fdPreviousTimeStamp = currTime;
+                        String facePath = "/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
+                                + File.separator + "ICU_test.jpg";
+                        int nFaces = fd.facedetect(facePath);
+                        System.out.println(String.format("FaceDetection: detected %d faces", nFaces));
+
+                        if (nFaces >= 1 ) {
+                            double faceDiff = currTime_MILLI_SECONDS - ttsPreviousFaceTimeStamp;
+                            System.out.println("FaceDetection: faceDiff: " + faceDiff);
+                            if (faceDiff > 2000) {
+                                String personinfront = "There is somebody facing you.";
+                                tts.speak(personinfront, TextToSpeech.QUEUE_FLUSH, null);
+                                ttsPreviousFaceTimeStamp = currTime_MILLI_SECONDS;
+                            }
+                        }
+                    }
                 }
             }
         });

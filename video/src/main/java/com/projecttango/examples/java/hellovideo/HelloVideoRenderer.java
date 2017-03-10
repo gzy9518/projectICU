@@ -31,6 +31,7 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 import java.nio.ShortBuffer;
+import java.util.Date;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -43,6 +44,7 @@ import com.projecttango.tangosupport.TangoSupport;
 public class HelloVideoRenderer implements GLSurfaceView.Renderer {
 
     private static final String TAG = HelloVideoRenderer.class.getSimpleName();
+    private long timeLastScreenshot = System.nanoTime();
 
     private final String vss =
             "attribute vec2 vPosition;\n" +
@@ -173,34 +175,35 @@ public class HelloVideoRenderer implements GLSurfaceView.Renderer {
         // Enable depth write again for any additional rendering on top of the camera surface
         GLES20.glDepthMask(true);
 
-        Bitmap img = SavePixels(0, 0, 1920, 1104, gl10);
-        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-        img.compress(Bitmap.CompressFormat.JPEG, 40, bytes);
+        double currTime = System.nanoTime();
+        double diff_MILLI_SECONDS = (currTime - timeLastScreenshot) / 1e6;
+        if (diff_MILLI_SECONDS > 1000) {
+            System.out.println("delta t: " + diff_MILLI_SECONDS);
+            timeLastScreenshot = System.nanoTime();
+            Bitmap img = SavePixels(0, 0, 1920, 1104, gl10);
+            ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+            img.compress(Bitmap.CompressFormat.JPEG, 40, bytes);
 
-        //you can create a new file name "test.jpg" in sdcard folder.
-        File f = new File("/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
-                + File.separator + "ICU_test.jpg");
+            //you can create a new file name "test.jpg" in sdcard folder.
+            File f = new File("/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
+                    + File.separator + "ICU_test.jpg");
+            try {
+                if (!f.exists()) {
+                    f.getParentFile().mkdirs();
+                    f.createNewFile();
+                }
 
-        String facepath = "/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
-                + File.separator + "ICU_test.jpg";
+                //write the bytes in file
+                FileOutputStream fo = new FileOutputStream(f, false);
+                fo.write(bytes.toByteArray());
 
-        try {
-            if (!f.exists()) {
-                f.getParentFile().mkdirs();
-                f.createNewFile();
-            }
+                // remember close de FileOutput
+                fo.close();
+            } catch (IOException e) {
+                System.out.println("Could not write!");
+                e.printStackTrace(System.out);
+            }        }
 
-            //write the bytes in file
-            FileOutputStream fo = new FileOutputStream(f, false);
-            fo.write(bytes.toByteArray());
-
-            // remember close de FileOutput
-            fo.close();
-        } catch (IOException e) {
-            System.out.println("Could not write!");
-            e.printStackTrace(System.out);
-        }
-        FaceDetector.facedetect(facepath);
     }
 
     private void createTextures() {
@@ -306,7 +309,8 @@ public class HelloVideoRenderer implements GLSurfaceView.Renderer {
         }
 
         Bitmap sb=Bitmap.createBitmap(bt, w, h, Bitmap.Config.ARGB_8888);
-        return sb;
+        Bitmap resized = Bitmap.createScaledBitmap(sb, 640, 368, true);
+        return resized;
     }
 
     public int getTextureId() {
