@@ -17,6 +17,7 @@
 package com.projecttango.examples.java.hellovideo;
 
 import android.app.Activity;
+import android.content.Context;
 import android.hardware.display.DisplayManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
@@ -81,6 +82,7 @@ public class HelloVideoActivity extends Activity {
     private TextView mTimestampTextView;
     private TextView mPointCountTextView;
     private TextView mAverageZTextView;
+    private Vibrator Lichen;
     private TextToSpeech tts;
     private FaceDetector fd; // for face detection
     private double ttsPreviousAlertTimeStamp;
@@ -123,7 +125,7 @@ public class HelloVideoActivity extends Activity {
         });
 
         // START VIBRATION SERVICE?
-        Vibrator vibe = (Vibrator) this.context.getSystemService(Context.VIBRATOR_SERVICE);
+
 
         String classifierPath = "/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
                 + File.separator + "lbpcascade_frontalface.xml";
@@ -220,6 +222,7 @@ public class HelloVideoActivity extends Activity {
                     tts.stop();
                     tts.shutdown();
                 }
+
             } catch (TangoErrorException e) {
                 Log.e(TAG, getString(R.string.exception_tango_error), e);
             }
@@ -247,6 +250,7 @@ public class HelloVideoActivity extends Activity {
     private void startupTango() {
         // Lock configuration and connect to Tango
         // Select coordinate frame pair
+
         ArrayList<TangoCoordinateFramePair> framePairs = new ArrayList<TangoCoordinateFramePair>();
 
         // Listen for new Tango data
@@ -263,6 +267,7 @@ public class HelloVideoActivity extends Activity {
 
             @Override
             public void onPointCloudAvailable(final TangoPointCloudData pointCloud) {
+                Vibrator Lichen = (Vibrator) HelloVideoActivity.this.getSystemService(Context.VIBRATOR_SERVICE);
                 System.out.println(HelloVideoActivity.this.getExternalFilesDir(Environment.DIRECTORY_PICTURES));
 //                if (mTangoUx != null) {
 //                    mTangoUx.updatePointCloud(pointCloud);
@@ -287,8 +292,11 @@ public class HelloVideoActivity extends Activity {
 
                 double MIN_TRACKING_METERS = 0.50;
                 double ARM_LENGTH_METERS = 2.00;
-                double WAIT_TIME_MILLISECS = 1000.0; // five seconds
+                double WAIT_TIME_MILLISECS = 2000.0; // five seconds
                 float[][] averagedXY = getAveragedXY(pointCloud.points, pointCloud.numPoints);
+                long longbuzz = 400;
+                long shortbuzz = 50;
+                long interval = 200;
 
                 double leftX = averagedXY[0][0];
                 double leftY = averagedXY[0][1];
@@ -321,56 +329,72 @@ public class HelloVideoActivity extends Activity {
                             (rightZ <= ARM_LENGTH_METERS);
 
                     if (leftObject && midObject && rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, longbuzz, interval, longbuzz, interval, longbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Obstacles ahead within arms length. Turn around.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
+
+
                     }
                     else if (leftObject && midObject && !rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, longbuzz, interval, longbuzz, interval, shortbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Try moving right.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
                     else if (!leftObject && midObject && !rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, shortbuzz, interval, longbuzz, interval, shortbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Try moving left or right.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
                     else if (leftObject && !midObject && rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, longbuzz, interval, shortbuzz, interval, longbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Obstacles on both sides, move straight.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
                     else if (!leftObject && midObject && rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, shortbuzz, interval, longbuzz, interval, longbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Try moving left.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
                     else if (leftObject && !midObject && !rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, shortbuzz, interval, shortbuzz, interval, longbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "There's something to your left.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
                     else if (!leftObject && !midObject && rightObject) {
-                        vibe.vibrate(500);
+                        long [] pattern = {0, longbuzz, interval, shortbuzz, interval, longbuzz};
                         if (!tts.isSpeaking()) {
+                            Lichen.cancel();
+                            Lichen.vibrate(pattern, 0);
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "There's something to your right.";
                             tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
