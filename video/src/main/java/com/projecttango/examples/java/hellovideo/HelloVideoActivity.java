@@ -21,6 +21,7 @@ import android.hardware.display.DisplayManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Vibrator;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.Display;
@@ -120,6 +121,10 @@ public class HelloVideoActivity extends Activity {
                 }
             }
         });
+
+        // START VIBRATION SERVICE?
+        Vibrator vibe = (Vibrator) this.context.getSystemService(Context.VIBRATOR_SERVICE);
+
         String classifierPath = "/storage/emulated/0/Android/data/com.projecttango.examples.java.hellovideo/files/Pictures"
                 + File.separator + "lbpcascade_frontalface.xml";
         fd = new FaceDetector(HelloVideoActivity.this, classifierPath);
@@ -316,6 +321,7 @@ public class HelloVideoActivity extends Activity {
                             (rightZ <= ARM_LENGTH_METERS);
 
                     if (leftObject && midObject && rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Obstacles ahead within arms length. Turn around.";
@@ -323,6 +329,7 @@ public class HelloVideoActivity extends Activity {
                         }
                     }
                     else if (leftObject && midObject && !rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Try moving right.";
@@ -330,6 +337,7 @@ public class HelloVideoActivity extends Activity {
                         }
                     }
                     else if (!leftObject && midObject && !rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Try moving left or right.";
@@ -337,6 +345,7 @@ public class HelloVideoActivity extends Activity {
                         }
                     }
                     else if (leftObject && !midObject && rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Obstacles on both sides, move straight.";
@@ -344,6 +353,7 @@ public class HelloVideoActivity extends Activity {
                         }
                     }
                     else if (!leftObject && midObject && rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "Try moving left.";
@@ -351,6 +361,7 @@ public class HelloVideoActivity extends Activity {
                         }
                     }
                     else if (leftObject && !midObject && !rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "There's something to your left.";
@@ -358,6 +369,7 @@ public class HelloVideoActivity extends Activity {
                         }
                     }
                     else if (!leftObject && !midObject && rightObject) {
+                        vibe.vibrate(500);
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
                             String warning = "There's something to your right.";
