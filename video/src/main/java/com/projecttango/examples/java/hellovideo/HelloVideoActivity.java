@@ -306,55 +306,114 @@ public class HelloVideoActivity extends Activity {
                 // double MAX_Y_METERS = 0.5;
                 if (MIN_TRACKING_METERS <= averageDepth &&
                         ttsAlertTimeDelta >= WAIT_TIME_MILLISECS) {
-                    if (midpoints >= 1000 &&
-                            midZ <= ARM_LENGTH_METERS) {
-                        if (leftpoints >= 1000 &&
-                                leftZ <= ARM_LENGTH_METERS) {
-                            if (rightpoints >= 1000 &&
-                                    rightZ <= ARM_LENGTH_METERS) {
-                                if (!tts.isSpeaking()) {
-                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
-                                    String warning = "Obstacles ahead within arms length. Turn around.";
-                                    tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
-                                }
-                            }
-                            if (rightpoints <= 1000) {
-                                if (!tts.isSpeaking()) {
-                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
-                                    String moveright = "Try moving left.";
-                                    tts.speak(moveright, TextToSpeech.QUEUE_FLUSH, null);
-                                }
-                            }
-                        }
-                        if (leftpoints <= 1000) {
-                            if (rightpoints <= 1000) {
-                                if (!tts.isSpeaking()) {
-                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
-                                    String moveeither = "Move left or right.";
-                                    tts.speak(moveeither, TextToSpeech.QUEUE_FLUSH, null);
-                                }
-                            }
-                            if (rightpoints >= 1000 &&
-                                    rightZ <= ARM_LENGTH_METERS) {
-                                if (!tts.isSpeaking()) {
-                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
-                                    String moveleft = "Try moving right.";
-                                    tts.speak(moveleft, TextToSpeech.QUEUE_FLUSH, null);
-                                }
-                            }
-                        }
-                    }
-                    if (midpoints <= 1000 &&
-                            rightpoints >= 1000 &&
-                            rightZ <= ARM_LENGTH_METERS &&
-                            leftpoints >= 1000 &&
-                            leftZ <= ARM_LENGTH_METERS) {
+                    // turn around
+                    int objectThreshold = 1000;
+                    boolean midObject = (midpoints >= objectThreshold) &&
+                            (midZ <= ARM_LENGTH_METERS);
+                    boolean rightObject = (leftpoints >= objectThreshold) &&
+                            (leftZ <= ARM_LENGTH_METERS);
+                    boolean leftObject = (rightpoints >= objectThreshold) &&
+                            (rightZ <= ARM_LENGTH_METERS);
+
+                    if (leftObject && midObject && rightObject) {
                         if (!tts.isSpeaking()) {
                             ttsPreviousAlertTimeStamp = currentTimeStamp;
-                            String movestraight = "Obstacles on both sides, move straight.";
-                            tts.speak(movestraight, TextToSpeech.QUEUE_FLUSH, null);
+                            String warning = "Obstacles ahead within arms length. Turn around.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
                         }
                     }
+                    else if (leftObject && midObject && !rightObject) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "Try moving right.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    else if (!leftObject && midObject && !rightObject) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "Try moving left or right.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    else if (leftObject && !midObject && rightObject) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "Obstacles on both sides, move straight.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    else if (!leftObject && midObject && rightObject) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "Try moving left.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    else if (leftObject && !midObject && !rightObject) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "There's something to your left.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                    else if (!leftObject && !midObject && rightObject) {
+                        if (!tts.isSpeaking()) {
+                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+                            String warning = "There's something to your right.";
+                            tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+//                    if (midpoints >= 1000 )
+//                    if (midpoints >= 1000 &&
+//                            midZ <= ARM_LENGTH_METERS) {
+//                        if (leftpoints >= 1000 &&
+//                                leftZ <= ARM_LENGTH_METERS) {
+//                            if (rightpoints >= 1000 &&
+//                                    rightZ <= ARM_LENGTH_METERS) {
+//                                if (!tts.isSpeaking()) {
+//                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+//                                    String warning = "Obstacles ahead within arms length. Turn around.";
+//                                    tts.speak(warning, TextToSpeech.QUEUE_FLUSH, null);
+//                                }
+//                            }
+//                            if (rightpoints <= 1000) {
+//                                if (!tts.isSpeaking()) {
+//                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+//                                    String moveright = "Try moving left.";
+//                                    tts.speak(moveright, TextToSpeech.QUEUE_FLUSH, null);
+//                                }
+//                            }
+//                        }
+//                        if (leftpoints <= 1000) {
+//                            if (rightpoints <= 1000) {
+//                                if (!tts.isSpeaking()) {
+//                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+//                                    String moveeither = "Move left or right.";
+//                                    tts.speak(moveeither, TextToSpeech.QUEUE_FLUSH, null);
+//                                }
+//                            }
+//                            if (rightpoints >= 1000 &&
+//                                    rightZ <= ARM_LENGTH_METERS) {
+//                                if (!tts.isSpeaking()) {
+//                                    ttsPreviousAlertTimeStamp = currentTimeStamp;
+//                                    String moveleft = "Try moving right.";
+//                                    tts.speak(moveleft, TextToSpeech.QUEUE_FLUSH, null);
+//                                }
+//                            }
+//                        }
+//                    }
+//                    if (midpoints <= 1000 &&
+//                            rightpoints >= 1000 &&
+//                            rightZ <= ARM_LENGTH_METERS &&
+//                            leftpoints >= 1000 &&
+//                            leftZ <= ARM_LENGTH_METERS) {
+//                        if (!tts.isSpeaking()) {
+//                            ttsPreviousAlertTimeStamp = currentTimeStamp;
+//                            String movestraight = "Obstacles on both sides, move straight.";
+//                            tts.speak(movestraight, TextToSpeech.QUEUE_FLUSH, null);
+//                        }
+//                    }
                 }
             }
 
@@ -410,7 +469,7 @@ public class HelloVideoActivity extends Activity {
                             double faceDiff = currTime_MILLI_SECONDS - ttsPreviousFaceTimeStamp;
                             System.out.println("FaceDetection: faceDiff: " + faceDiff);
                             if (faceDiff > 2000) {
-                                String personinfront = "There is somebody facing you.";
+                                String personinfront = String.format("There are %d faces in front of you", nFaces);
                                 tts.speak(personinfront, TextToSpeech.QUEUE_FLUSH, null);
                                 ttsPreviousFaceTimeStamp = currTime_MILLI_SECONDS;
                             }
